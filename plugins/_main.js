@@ -166,7 +166,7 @@ smd({
   }
 });
 smd({
-  pattern: "mgpt",
+  pattern: "gpt",
   desc: "chat with an AI",
   category: "ai",
   use: "<query>",
@@ -185,7 +185,7 @@ smd({
       await _0x42b3b8.send("*_Error while getting gpt responce!!_*");
     }
   } catch (_0x70fc81) {
-    await _0x42b3b8.error(_0x70fc81 + "\n\ncommand: mgpt", _0x70fc81, "*_no responce from chatgpt, sorry!!_*");
+    await _0x42b3b8.error(_0x70fc81 + "\n\ncommand: gpt", _0x70fc81, "*_no responce from chatgpt, sorry!!_*");
   }
 });
 smd({
@@ -479,7 +479,7 @@ async function getDateTime() {
   };
 }
 smd({
-  pattern: "mrepo",
+  pattern: "repo",
   alias: ["git", "sc", "script"],
   desc: "Sends info about repo",
   category: "general",
@@ -489,7 +489,7 @@ smd({
     let {
       data: _0x44f98c
     } = await axios.get("https://api.github.com/repos/mrsky-cyber/MRSKY-MD");
-    let _0x1c73f9 = ("\nMRSKY MD 🌟🌟🌟🌟🌟🌟🌟🌟*" + Config.ownername + "*.\n\n  *❲🌚❳ Stars:* " + (_0x44f98c?.stargazers_count || "120+") + " stars\n  *❲🌚❳ Forks:* " + (_0x44f98c?.forks_count || "1000+") + " forks\n  *❲🌚❳ Authors:* Mrsky-tech\n  *❲😇❳ Created On:* " + (_0x44f98c?.created_at || "undefined") + "\n  *❲✌❳ Follow Channel:* _https://chat.whatsapp.com/I98ptwPbiFd7CvHXtcJMxp_\n  *❲👊❳ Wagroup:* _" https://chat.whatsapp.com/JjPW46zM0e05F4NT66Rl3l "_" + (Config.caption ? "\n\n" + Config.caption : "")).trim();
+    let _0x1c73f9 = ("\nMRSKY MD AWHATSPP CHUDDY BUDDY BOT WITH RICH FEATURES*" + Config.ownername + "*.\n\n  *❲🌚❳ Stars:* " + (_0x44f98c?.stargazers_count || "120+") + " stars\n  *❲🌚❳ Forks:* " + (_0x44f98c?.forks_count || "1000+") + " forks\n  *❲🌚❳ Authors:* Mrsky-tech\n  *❲😇❳ Created On:* " + (_0x44f98c?.created_at || "undefined") + "\n  *❲✌❳ Repo:*  " + repo + " \n  *❲👊❳ Wagroup:* _" https://chat.whatsapp.com/JjPW46zM0e05F4NT66Rl3l "_" + (Config.caption ? "\n\n" + Config.caption : "")).trim();
     return await _0x45da98.sendUi(_0x45da98.jid, {
       caption: _0x1c73f9
     });
