@@ -175,7 +175,7 @@ Then `Go-to Whatapp>Three dots>Linked Devices`***
   ##
   
   * [`𝐝𝐨𝐧'𝐭 𝐞𝐯𝐞𝐧 𝐡𝐚𝐯𝐞 𝐠𝐢𝐭𝐡𝐮𝐛 𝐚𝐜𝐜𝐨𝐮𝐧𝐭` How To s
-Mrsky tech](https://readme-typing-svg.demolab.com?font=Anton&size=30&pause=998&color=F51FFF&background=F7F2F20A&vCenter=true&random=false&width=465&lines=thank+you%F0%9F%91%8B!;for+using+MrSky+md;🙏;🙏+✍🏾;🥰)](https://github.com/Kingjux)
+Mrsky tech](https://readme-typing-svg.demolab.com?font=Anton&size=30&pause=998&color=F51FFF&background=F7F2F20A&vCenter=true&random=false&width=465&lines=thank+you%F0%9F%91%8B!;for+using+MrSky+md;🙏;🙏+✍🏾;🥰)]
 
 <h1>MR SKY MD</h1> 
 <b>Thanks For</b> -
