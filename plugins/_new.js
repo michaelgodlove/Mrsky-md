@@ -20,7 +20,7 @@ let {
     filename: __filename,
   },
   async (message) => {
-    const channelMessage = `VENOCYBER 𝐓𝐄𝐂𝐇 𝐎𝐅𝐅𝐈𝐂𝐀𝐋 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐂𝐇𝐀𝐍𝐍E𝐋𝐄 𝐅𝐎𝐋𝐋𝐎𝐖 𝐑𝐄𝐐_\n *𝐋𝐈𝐍𝐊:* https://whatsapp.com/channel/0029VaYauR9ISTkHTj4xvi1l\n\n ${Config.botname} *WORKS*`;
+    const channelMessage = `MRSKY 𝐓𝐄𝐂𝐇 𝐎𝐅𝐅𝐈𝐂𝐀𝐋 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐂𝐇𝐀𝐍𝐍E𝐋𝐄 𝐅𝐎𝐋𝐋𝐎𝐖 𝐑𝐄𝐐_\n *𝐋𝐈𝐍𝐊:* https://whatsapp.com/channel/0029VaYauR9ISTkHTj4xvi1l\n\n ${Config.botname} *WORKS*`;
 
     const contextInfo = {
       forwardingScore: 999,
@@ -39,7 +39,7 @@ smd(
     filename: __filename,
   },
   async (message) => {
-    const SupportMsg = `VENOCYBER 𝐌𝐃 𝐎𝐅𝐅𝐈𝐂𝐀𝐋 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏\n\n *ʟɪɴᴋ:*https://chat.whatsapp.com/HSln3blDuuuKvC8njxyCCN \n\n ${Config.botname} *WORKS*`;
+    const SupportMsg = `MRSKY 𝐌𝐃 𝐎𝐅𝐅𝐈𝐂𝐀𝐋 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏\n\n *ʟɪɴᴋ:*https://chat.whatsapp.com/HSln3blDuuuKvC8njxyCCN \n\n ${Config.botname} *WORKS*`;
 
     const contextInfo = {
       forwardingScore: 999,
@@ -131,7 +131,7 @@ smd(
        const _0x48255c = Object.entries(_0x24712d).map(([_0x4d2ffd, _0x534145]) => _0x4d2ffd + " " + (_0x534145 <= 1 ? "" : "(" + _0x534145 + ")")).join(", ");
        return "*" + (_0xf43b6c + 1) + " -- @" + _0x4cd261.split("@")[0] + "'s ➪ " + _0x2dd06e[_0x4cd261].count + "*  \n *LIST ➪*  _" + _0x48255c.trim() + "_";
      }).join("\n\n");
-     var _0x17ca33 = ("*LIST OF COMMANDS USED TODAY!*\n_Note: Data will be reset when bot restart!_\n\n*Total Users: _" + _0x38bc51.length + "_*\n*Total Command Used: _" + commandHistory.length + "_*\n\n" + _0x5513e2 + "\n\n" + Config.caption).trim();
+     var _0x17ca33 = ("*MRSKY LIST OF COMMANDS USED TODAY!*\n_Note: Data will be reset when bot restart!_\n\n*Total Users: _" + _0x38bc51.length + "_*\n*Total Command Used: _" + commandHistory.length + "_*\n\n" + _0x5513e2 + "\n\n" + Config.caption).trim();
      await _0x297641.send(_0x17ca33, {
        contextInfo: {
          ...(await _0x297641.bot.contextInfo("HISTORY"))
@@ -150,7 +150,7 @@ smd(
    filename: __filename
  }, async _0x17bb63 => {
    try {
-     let _0x12a593 = "*BOT CURRENTLY ACTIVE!*";
+     let _0x12a593 = "*MRSKY CURRENTLY ACTIVE!*";
      await _0x17bb63.reply(_0x12a593, {
        contextInfo: {
          externalAdReply: {
@@ -281,7 +281,7 @@ smd(
          edit: _0x2d7cf6
        }, "asta", _0x4e7c63);
      } catch (_0x28ce7e) {}
-     let _0x50f17a = " *乂 ＷＡＳＩ－ＭＤ－Ｖ２ ＣＯＭＭＡＮＤＳ ＬＩＳＴ ＡＮＤ ＦＵＮ*\n\n\n  ◦ _Total Features ➪ " + _0x4cf8ed + "_\n  \n*◦ LIST DOWN THE FEATURES*\n\n      _Commands ➪ " + Object.values(_0x4de967.commands).filter(_0x54d4bf => _0x54d4bf.pattern).length + "_\n      _Msg Listener ➪ " + Object.values(_0x4de967.commands).filter(_0x2376a3 => _0x2376a3.on).length + "_\n      _Call Listener ➪ " + Object.values(_0x4de967.commands).filter(_0x54a19b => _0x54a19b.call).length + "_\n      _Group Listener ➪ " + Object.values(_0x4de967.commands).filter(_0x35381c => _0x35381c.group).length + "_\n  \n\n" + Config.caption;
+     let _0x50f17a = " *MRSKY－ＭＤ－Ｖ２ ＣＯＭＭＡＮＤＳ ＬＩＳＴ ＡＮＤ ＦＵＮ*\n\n\n  ◦ _Total Features ➪ " + _0x4cf8ed + "_\n  \n*◦ LIST DOWN THE FEATURES*\n\n      _Commands ➪ " + Object.values(_0x4de967.commands).filter(_0x54d4bf => _0x54d4bf.pattern).length + "_\n      _Msg Listener ➪ " + Object.values(_0x4de967.commands).filter(_0x2376a3 => _0x2376a3.on).length + "_\n      _Call Listener ➪ " + Object.values(_0x4de967.commands).filter(_0x54a19b => _0x54a19b.call).length + "_\n      _Group Listener ➪ " + Object.values(_0x4de967.commands).filter(_0x35381c => _0x35381c.group).length + "_\n  \n\n" + Config.caption;
      await _0x4e7c63.bot.relayMessage(_0x4e7c63.chat, {
        requestPaymentMessage: {
          currencyCodeIso4217: "NG",
