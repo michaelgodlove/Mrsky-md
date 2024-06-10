@@ -38,7 +38,7 @@
 let Gifted_Md = "Gifted MD Whatsapp bot md"
 let {smd , prefix,Config} = require("../lib")
 
-// ============================ CHATS SETTINGS ============================ 
+// =======================MRSKY CHATS SETTINGS ============================ 
 
 smd({
 	pattern: 'clear',
@@ -212,7 +212,7 @@ smd({
 })
 
 
-// ============================ PRIVACY SETTINGS ============================    
+// =======================MRSKY PRIVACY SETTINGS ============================    
 
 
 
@@ -239,17 +239,17 @@ smd({
 	} = await message.bot.fetchPrivacySettings(true);
 	const msg = `*♺ whatsapp privacy settings*
 
-*ᝄ name :* ${(message.fromMe &&  message.pushName ? message.pushName :  message.bot.user.name).split("\n").join("  ") }
-*ᝄ number :* ${message.user.split("@")[0]}
+*🌟 name :* ${(message.fromMe &&  message.pushName ? message.pushName :  message.bot.user.name).split("\n").join("  ") }
+*🌟 number :* ${message.user.split("@")[0]}
 
-*ᝄ online :* ${online}
-*ᝄ profile :* ${profile}
-*ᝄ last seen :* ${last}
-*ᝄ whts status :* ${status}
-*ᝄ read receipt :* ${readreceipts}
+*🌟 online :* ${online}
+*🌟 profile :* ${profile}
+*🌟 last seen :* ${last}
+*🌟 whts status :* ${status}
+*🌟 read receipt :* ${readreceipts}
 
-*ᝄ who can add in group :* ${groupadd}
-*ᝄ who can call :* ${calladd}`;
+*🌟 who can add in group :* ${groupadd}
+*🌟 who can call :* ${calladd}`;
 	let img = await message.getpp(message.user)
 	await message.send(img, {
 		caption: msg
