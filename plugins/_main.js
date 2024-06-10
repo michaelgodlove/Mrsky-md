@@ -29,7 +29,7 @@ function _0x2a0d(_0x32de74, _0xce23fd) {
   return _0x2a0d(_0x32de74, _0xce23fd);
 }
 function _0x2953() {
-  const _0x4f0c10 = ["json", "choices", "2KTKIiW", "application/json", "chat", "http://api.brainshop.ai/get?bid=175685&key=Pg8Wu8mrDQjfr0uv&uid=[", "4017447FwUKbt", "2673069xtYnEg", "REMOVE_BG_KEY", "Bearer ", "image-alpha-001", "320668Kzvhym", "data", "then", "message", "1548910BYiCAA", "error in aiResponce : ", "119490ILpvcx", "system", "sender", "binary", "from", "log", "dalle", "https://api.remove.bg/v1.0/removebg", "567277OBjzQH", "length", "get", "POST", "stringify", "content", "512x512", "78qmNvDj", "https://api.openai.com/v1/images/generations", "Error While getting Ai responce ", "url", "catch", "]&msg=[", "split", "8yTiNwA", "You", "gpt", "1769427SEqioY"];
+  const _0x4f0c10 = ["json", "choices", "2KTKIiW", "application/json", "Mchat", "http://api.brainshop.ai/get?bid=175685&key=Pg8Wu8mrDQjfr0uv&uid=[", "4017447FwUKbt", "2673069xtYnEg", "REMOVE_BG_KEY", "Bearer ", "image-alpha-001", "320668Kzvhym", "data", "then", "message", "1548910BYiCAA", "error in aiResponce : ", "119490ILpvcx", "system", "sender", "binary", "from", "log", "dalle", "https://api.remove.bg/v1.0/removebg", "567277OBjzQH", "length", "get", "POST", "stringify", "content", "512x512", "78qmNvDj", "https://api.openai.com/v1/images/generations", "Error While getting Ai responce ", "url", "catch", "]&msg=[", "split", "8yTiNwA", "You", "gpt", "1769427SEqioY"];
   _0x2953 = function () {
     return _0x4f0c10;
   };
@@ -123,16 +123,16 @@ async function aiResponce(_0x109acf, _0xf00650, _0x2728a0 = "") {
 }
 ;
 smd({
-  pattern: "chat",
+  pattern: "Mchat",
   desc: "chat with an AI",
   category: "ai",
-  use: "<Hii, venocyber-tech>",
+  use: "<Hii, mrsky-tech>",
   filename: __filename
 }, async (_0x1c0160, _0x482db1) => {
   try {
-    return _0x1c0160.reply(await aiResponce(_0x1c0160, "chat", _0x482db1));
+    return _0x1c0160.reply(await aiResponce(_0x1c0160, "Mchat", _0x482db1));
   } catch (_0x4adf95) {
-    await _0x1c0160.error(_0x4adf95 + "\n\ncommand: chat", _0x4adf95, "*_no responce from chatbot, sorry!!_*");
+    await _0x1c0160.error(_0x4adf95 + "\n\ncommand: Mchat", _0x4adf95, "*_Sorry your message no answers from the Mrsky Mchat, Sorry!!!_*");
   }
 });
 smd({
@@ -162,7 +162,7 @@ smd({
     }
     return _0x5cb388.send(await aiResponce(_0x5cb388, "gpt", _0x302ad5));
   } catch (_0x2ef914) {
-    await _0x5cb388.error(_0x2ef914 + "\n\ncommand: gpt", _0x2ef914, "*_no responce from chatgpt, sorry!!_*");
+    await _0x5cb388.error(_0x2ef914 + "\n\ncommand: gpt", _0x2ef914, "*_Sorry your message no answers from the Mrsky gpt, Sorry!!!_*");
   }
 });
 smd({
@@ -185,7 +185,7 @@ smd({
       await _0x42b3b8.send("*_Error while getting gpt responce!!_*");
     }
   } catch (_0x70fc81) {
-    await _0x42b3b8.error(_0x70fc81 + "\n\ncommand: fgpt", _0x70fc81, "*_no responce from chatgpt, sorry!!_*");
+    await _0x42b3b8.error(_0x70fc81 + "\n\ncommand: fgpt", _0x70fc81, "*_Sorry your message no answers from the Mrsky fgpt, Sorry! !!!_*");
   }
 });
 smd({
@@ -221,7 +221,7 @@ smd({
       caption: "*---Your DALL-E Result---*\n" + Config.caption
     });
   } catch (_0x25b4b9) {
-    await _0x21be87.error(_0x25b4b9 + "\n\ncommand: dalle", _0x25b4b9, "*_No responce from Dall-E Ai, Sorry!!_*");
+    await _0x21be87.error(_0x25b4b9 + "\n\ncommand: dalle", _0x25b4b9, "*_Sorry your message no answers from the Mrsky  Dall-E Ai, Sorry!!_*");
   }
 });
 smd({
@@ -358,7 +358,7 @@ smd({
       await _0x28a796.send("*_Request not be preceed!!_*");
     }
   } catch (_0x166d80) {
-    await _0x28a796.error(_0x166d80 + "\n\ncommand: rmbg", _0x166d80, "*_No responce from remove.bg, Sorry!!_*");
+    await _0x28a796.error(_0x166d80 + "\n\ncommand: rmbg", _0x166d80, "*_No responce from Mrsky remove.bg, Sorry!!_*");
   }
 });
 smd({
@@ -489,7 +489,7 @@ smd({
     let {
       data: _0x44f98c
     } = await axios.get("https://api.github.com/repos/mrsky-cyber/MRSKY-MD");
-    let _0x1c73f9 = ("\nMRSKY-MD AN CHUDDY BUDDY BOT FOR ENJOYMENT *" + Config.ownername + "*.\n\n  *❲❒❳ Stars:* " + (_0x44f98c?.stargazers_count || "120+") + " stars\n  *❲❒❳ Forks:* " + (_0x44f98c?.forks_count || "1000+") + " forks\n  *❲❒❳ Authors:* Mrsky-tech\n  *❲❒❳ Created On:* " + (_0x44f98c?.created_at || "undefined") + "\n  *❲❒❳ Repo:* _https://github.com/mrsky-cyber/Mrsky-md_\n  *❲❒❳ Scan:* _" + scan + "_" + (Config.caption ? "\n\n" + Config.caption : "")).trim();
+    let _0x1c73f9 = ("\nMRSKY-MD AN CHUDDY BUDDY BOT FOR ENJOYMENT *" + Config.ownername + "*.\n\n  *❲🔥❳ Stars:* " + (_0x44f98c?.stargazers_count || "120+") + " stars\n  *❲🔥❳ Forks:* " + (_0x44f98c?.forks_count || "1000+") + " forks\n  *❲🔥❳ Authors:* Mrsky-tech\n  *❲🔥❳ Created On:* " + (_0x44f98c?.created_at || "undefined") + "\n  *❲🔥❳ Repo:* _https://github.com/mrsky-cyber/Mrsky-md_\n  *❲🔥❳ Scan:* _" + scan + "_" + (Config.caption ? "\n\n" + Config.caption : "")).trim();
     return await _0x45da98.sendUi(_0x45da98.jid, {
       caption: _0x1c73f9
     });
