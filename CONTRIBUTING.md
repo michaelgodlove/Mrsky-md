@@ -5,6 +5,4 @@
 -----------------------------------------------------------------
 
 
-# VENOCYBER MD
-
-You can send anything via VODACOM Mpesa number 0749614269 <b>JASTIN ASHERY MTEWA</b>
+# MRSKY MD
