@@ -16,7 +16,7 @@ if (!Array.isArray(global.renters)) {
 if (!Array.isArray(global.rentdisable)) {
   global.rentdisable = [];
 }
-let disabledperma = ["sharebot", "sharelist", "stoprent", "disableshare", "enableshare", "setsudo", "delsudo", "newvar", "delvar", "setvar", "update", "updatenow", "restart", "reboot"];
+let disabledperma = ["mrskybot", "mrskylist", "stoprent", "disableshare", "enableshare", "setsudo", "delsudo", "newvar", "delvar", "setvar", "update", "updatenow", "restart", "reboot"];
 const {
   userdb,
   smd,
@@ -117,7 +117,7 @@ try {
   });
 } catch (_0x2568c0) {
   if (!global.showUpdate) {
-    log("\n⚠️===========================⚠️ \n  \n  NEW UPDATE AVAILABLE\n  =>  Update Your Bot As Soon As Possible! 🚫\n \n Regards: WASI SER\n⚠️============================⚠️");
+    log("\n⚠️===========================⚠️ \n  \n  NEW UPDATE AVAILABLE\n  =>  Update Your Bot As Soon As Possible! 🚫\n \n Regards: MRSKY SER\n⚠️============================⚠️");
     global.showUpdate = true;
   }
 }
@@ -133,7 +133,7 @@ smd({
       users: {}
     };
     if (!_0x5be11f) {
-      return _0x5981d0.reply(("\n  *Example: My owner is AFK*\n  *Last seen before #lastseen*\n  *Also update status: " + prefix + "afk @time, @date, @line(pickupline), @quote(random quote), @user*\n  \n*To turn off use " + prefix + "unAfk.*\n  ").trim());
+      return _0x5981d0.reply(("\n  *Example: My owner is MRSKY*\n  *Last seen before #lastseen*\n  *Also update status: " + prefix + "afk @time, @date, @line(pickupline), @quote(random quote), @user*\n  \n*To turn off use " + prefix + "unAfk.*\n  ").trim());
     }
     if (_0x5be11f === "get" && afk[_0x5981d0.sender]) {
       return _0x5981d0.reply(afk[_0x5981d0.sender].reason);
@@ -150,7 +150,7 @@ smd({
       let _0x3f1e86 = ("@" + _0x5981d0.sender.split("@")[0] + " currently AFK.\nReason: " + afk[_0x5981d0.sender].reason.replace("@lastseen", "\nlastseen : " + getTimeDifference(afk[_0x5981d0.sender].lastseen) + "\n")).trim();
       await sendWelcome(_0x5981d0, _0x3f1e86, _0x5981d0, _0x5981d0.sender);
     } else {
-      _0x5981d0.reply("*Request Denied!*");
+      _0x5981d0.reply("*Mrsky Request Denied!*");
     }
   } catch (_0x14591d) {
     _0x5981d0.error(_0x14591d + "\n\nCommand: AFKs", _0x14591d);
@@ -165,7 +165,7 @@ smd({
     let _0x5f4dc1 = await db.get();
     afk = _0x5f4dc1.afk || {};
     if (!afk[_0x19b40d.sender]) {
-      return _0x19b40d.reply("*You are not AFK.*");
+      return _0x19b40d.reply("*You are not MRSKY.*");
     }
     delete afk[_0x19b40d.sender];
     _0x5f4dc1.afk = {
@@ -175,14 +175,14 @@ smd({
     if (_0x5f4dc1) {
       await _0x19b40d.reply("Finally, You are back!");
     } else {
-      _0x19b40d.reply("*Request Denied!*");
+      _0x19b40d.reply("*Mrsky Request Denied!*");
     }
   } catch (_0x256eef) {
     _0x19b40d.error(_0x256eef + "\n\nCommand: UnAFK", _0x256eef, "ERROR");
   }
 });
 let txt = {
-  "2": "*Hey i already inform you!*\n",
+  "2": "*Hey Mrsky i already inform you!*\n",
   "3": "*Stop spamming!*"
 };
 function getTimeDifference(_0x47a53) {
@@ -261,7 +261,7 @@ smd(
           const quoteText = `\n\n*"${quote.result.body}"*\n_- ${quote.result.author}_`;
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `ᴀsᴛᴀ ᴍᴅ 𝟸.5.𝟶 ᴘᴀᴛᴄʜ\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds${quoteText}\n\nᴀsᴛᴀ ᴍᴅ`;
+          const captionText = `MRSKY MD TECH\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds${quoteText}\n\nMRSKY ᴍᴅ`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
@@ -283,7 +283,7 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `ᴀsᴛᴀ ᴍᴅ 𝟸.5.𝟶 ᴘᴀᴛᴄʜ\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds\n\n*Fact:*\n${fact.result.fact}\n\nᴀsᴛᴀ ᴍᴅ`;
+          const captionText = `MRSKY MD TECH\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds\n\n*Fact:*\n${fact.result.fact}\n\nMRSKY ᴍᴅ`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
@@ -305,7 +305,7 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `ᴀsᴛᴀ ᴍᴅ 𝟸.5.𝟶 ᴘᴀᴛᴄʜ\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds\n\n*Line:*\n${line.result}\n\nᴀsᴛᴀ ᴍᴅ`;
+          const captionText = `MRSKY MD TECH\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds\n\n*Line:*\n${line.result}\n\nMRSKY MD`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
@@ -493,10 +493,10 @@ smd({
 }, async (_0x65bfc2, _0x324d8f) => {
   try {
     if (!_0x65bfc2.quoted) {
-      return await _0x65bfc2.reply("Uhh Please, Reply to Audio/Video To Add In Bgm");
+      return await _0x65bfc2.reply("i'm Mrsky Please, Reply to Audio/Video To Add In Bgm");
     }
     if (!_0x324d8f) {
-      return await _0x65bfc2.reply("Uhh Please give Bgm Song NAme");
+      return await _0x65bfc2.reply("Hey I am Mrsky Please give Bgm Song NAme");
     }
     let _0x5e225e = false;
     let _0x44e871 = "";
@@ -511,10 +511,10 @@ smd({
         _0x44e871 = "./convertedVideo.mp4";
       }
     } else {
-      return await _0x65bfc2.reply("Uhh Please, Reply to Audio/Video To Add In Bgm");
+      return await _0x65bfc2.reply("I'm Mrsky Please, Reply to Audio/Video To Add In Bgm");
     }
     if (!_0x44e871) {
-      return await _0x65bfc2.reply("There's an Error While Adding Bgm Song");
+      return await _0x65bfc2.reply("😢There's an Error While Adding Bgm Song");
     }
     let _0x4bf005 = await TelegraPh(_0x44e871);
     let _0x472e61 = (await bot_.findOne({
@@ -554,7 +554,7 @@ smd({
       id: "bot_" + _0x20ae95.user
     }));
     if (!_0x55bc30) {
-      return await _0x20ae95.send("*PmPermit Currently *" + (_0x457e3e.permit ? "enabled" : "disabled") + "!!!*\n  *Set to:* ```" + _0x457e3e.values.toUpperCase() + "```\n  \n  *Available Cmds:*```\n  " + (prefix + _0x4ec31d) + " off \n  " + (prefix + _0x4ec31d) + " on | all\n  " + (prefix + _0x4ec31d) + " on | 212,91``` \n  \n\n" + Config.caption);
+      return await _0x20ae95.send("*Mrsky PmPermit Currently *" + (_0x457e3e.permit ? "enabled" : "disabled") + "!!!*\n  *Set to:* ```" + _0x457e3e.values.toUpperCase() + "```\n  \n  *Available Cmds:*```\n  " + (prefix + _0x4ec31d) + " off \n  " + (prefix + _0x4ec31d) + " on | all\n  " + (prefix + _0x4ec31d) + " on | 212,91``` \n  \n\n" + Config.caption);
     }
     var _0x3cd525 = _0x55bc30.toLowerCase().trim();
     const _0x381f23 = _0x3cd525.split("|")[0] || "";
@@ -575,7 +575,7 @@ smd({
       return await _0x20ae95.send("*_PmPermit " + (_0x110a99 ? "Updated" : "Activated") + " Succesfully!_*\n*_Now " + (_0x133f61 === "all" ? "everyone" : _0x133f61) + " need permission for pm_*");
     } else if (_0x381f23.startsWith("off") || _0x381f23.startsWith("disable") || _0x381f23.startsWith("deact")) {
       if (!_0x457e3e.permit) {
-        return await _0x20ae95.send("*_Uhh Dear, PmPermit Already disabled!_*");
+        return await _0x20ae95.send("*_👋 Dear, PmPermit Already disabled!_*");
       }
       await bot_.updateOne({
         id: "bot_" + _0x20ae95.user
@@ -867,10 +867,10 @@ events.cmd({
   }
 });
 events.cmd({
-  cmdname: "sharebot",
+  cmdname: "mrskybot",
   desc: "allow or rent your bot to someone!",
   fromMe: true,
-  type: "share"
+  type: "mrsky"
 }, async (_0x2bd5d0, _0x3cbbb0, {
   args: _0x28f7b9
 }) => {
@@ -878,13 +878,13 @@ events.cmd({
     let _0x2dd6fb = (_0x28f7b9[0] || "").toLowerCase();
     let _0x5ae18a = ["qr", "pair", "session"].includes(_0x2dd6fb) ? _0x2dd6fb : false;
     if (!_0x5ae18a) {
-      return await _0x2bd5d0.reply("*Please follow the below option!*\n    _" + prefix + "sharebot qr/pair |" + _0x2bd5d0.senderNum + "_\n    _" + prefix + "sharebot session scan_Id_\n");
+      return await _0x2bd5d0.reply("*Please follow the below option!*\n    _" + prefix + "mrskybot qr/pair |" + _0x2bd5d0.senderNum + "_\n    _" + prefix + "mrskybot session scan_Id_\n");
     }
     let _0x4320e3 = _0x2bd5d0.reply_message ? _0x2bd5d0.reply_message.sender : _0x2bd5d0.mentionedJid[0] ? _0x2bd5d0.mentionedJid[0] : false;
     let _0x22ebbc = (_0x3cbbb0.split("|")[1] || "")?.replace(/[\s+]/g, "") || "";
     let _0x5c7b6c = _0x4320e3 ? _0x4320e3.split("@")[0] : _0x22ebbc ? _0x22ebbc : "";
     if (_0x5ae18a == "pair" && !_0x5c7b6c) {
-      return _0x2bd5d0.reply("*_please provide number for \"pair\" connection!_*\n_Example: " + prefix + "sharebot pair | " + _0x2bd5d0.senderNum + "!_\n_OR : " + prefix + "rentbot pair by reply/mention user!_");
+      return _0x2bd5d0.reply("*_please provide number for \"pair\" connection!_*\n_Example: " + prefix + "mrskybot pair | " + _0x2bd5d0.senderNum + "!_\n_OR : " + prefix + "rentbot pair by reply/mention user!_");
     }
     let _0x1794f2 = _0x28f7b9[1] || "";
     let _0xac7ec4 = _0x1794f2 && _0x1794f2.length > 30 ? _0x1794f2 : "";
@@ -897,7 +897,7 @@ events.cmd({
       user: _0x5c7b6c
     };
     if (_0x5ae18a == "pair" && _0x2bd5d0.user.split("@")[0] === _0x5c7b6c) {
-      return _0x2bd5d0.reply("_Hey Master! I am already a bot!_");
+      return _0x2bd5d0.reply("_Hey Mrsky! I am already a bot!_");
     }
     _0x2bd5d0.reply("*Please wait!*");
     Rentt(_0x2bd5d0.bot, _0x2bd5d0, "", _0x681014).catch(_0x222581 => {
@@ -909,7 +909,7 @@ events.cmd({
   }
 });
 events.cmd({
-  cmdname: "sharelist",
+  cmdname: "mrskylist",
   desc: "Shows a list of users who has rent a bot!",
   fromMe: true,
   type: "share"
@@ -917,11 +917,11 @@ events.cmd({
   try {
     let _0x35816f = global.renters;
     if (!_0x35816f || !_0x35816f[0]) {
-      return await _0x48b928.reply("*No user has rent 'WASI md' yet!*");
+      return await _0x48b928.reply("*No user has rent 'MRSKY md' yet!*");
     }
     let _0x14cff4 = [...new Set([..._0x35816f.filter(_0x2822d6 => _0x2822d6.user).map(_0x2b342c => _0x2b342c.user)])];
     if (!_0x14cff4 || !_0x14cff4[0]) {
-      return await _0x48b928.reply("*There's no user has shared 'WASI md'!*");
+      return await _0x48b928.reply("*There's no user has shared 'MRSKY md'!*");
     }
     let _0x1b2187 = "*[WASI-MD Rent Users]*\n\n";
     let _0x261278 = [];
@@ -937,7 +937,7 @@ events.cmd({
       mentions: [..._0x261278],
       contextInfo: {
         externalAdReply: {
-          title: "WASI-Md Share list",
+          title: "MRSKY-Md Share list",
           sourceUrl: gurl
         }
       }
@@ -950,15 +950,15 @@ events.cmd({
   }
 });
 events.cmd({
-  cmdname: "stopshare",
+  cmdname: "stopmrsky",
   desc: "stop rentbot from a user!",
   fromMe: true,
-  type: "share"
+  type: "mrsky"
 }, async (_0x5d40b9, _0xb3196a) => {
   try {
     let _0x21c25c = global.renters;
     if (!_0x21c25c || !_0x21c25c[0]) {
-      return await _0x5d40b9.reply("*No user has rent 'WASI md' yet!*");
+      return await _0x5d40b9.reply("*No user has rent 'MRSKY md' yet!*");
     }
     let _0x3c0e18 = _0x5d40b9.reply_message ? _0x5d40b9.reply_message.sender : _0x5d40b9.mentionedJid[0] ? _0x5d40b9.mentionedJid[0] : false;
     let _0x2e6489 = (_0xb3196a.split(" ")[0] || "")?.replace(/[\s+]/g, "") || "";
@@ -971,11 +971,11 @@ events.cmd({
       print("END ----- CALLED!");
       _0x21c25c[_0x5ad48c].ws.close();
       global.renters.splice(_0x5ad48c, 1);
-      return await _0x5d40b9.reply("*Share bot successfully LOGOUT from @" + _0x34f1e0.split("@")[0] + " !*", {
+      return await _0x5d40b9.reply("*Mrsky bot successfully LOGOUT from @" + _0x34f1e0.split("@")[0] + " !*", {
         mentions: [_0x34f1e0]
       });
     } else {
-      return await _0x5d40b9.reply("*There's no user who has shared 'WASI md'!*");
+      return await _0x5d40b9.reply("*There's no user who has shared 'MRSKY md'!*");
     }
   } catch (_0x5bad57) {
     _0x5d40b9.reply("_ERROR!_");
@@ -983,11 +983,11 @@ events.cmd({
   }
 });
 events.cmd({
-  cmdname: "disableshare",
+  cmdname: "disablemrsky",
   desc: "Disable cmds for share bot users!",
   use: "< cmname / tag / ytmp4 etc.>",
   fromMe: true,
-  type: "share"
+  type: "mrsky"
 }, async (_0x52616f, _0x2d6ee3) => {
   try {
     if (!_0x2d6ee3) {
@@ -995,12 +995,12 @@ events.cmd({
     }
     let _0x41fff7 = global.renters;
     if (!_0x41fff7 || !_0x41fff7[0]) {
-      return await _0x52616f.reply("*_No user has rent 'WASI md' yet!_*\n*_Can't disable cmds for shared users, If the bot is not shared!_*");
+      return await _0x52616f.reply("*_No user has rent 'MRSK md' yet!_*\n*_Can't disable cmds for shared users, If the bot is not shared!_*");
     }
     let _0x5b8a34 = _0x2d6ee3.split(" ")[0].toLowerCase().trim();
     let _0x197a22 = events.commands.find(_0x3f658d => _0x3f658d.pattern === _0x5b8a34) || events.commands.find(_0x21a89e => _0x21a89e.alias && _0x21a89e.alias.includes(_0x5b8a34));
     if (!_0x197a22) {
-      return await _0x52616f.reply("*Provide a valid cmd name, that available in bot!*\n*To Stop using from users who have rent 'WASI'!");
+      return await _0x52616f.reply("*Provide a valid cmd name, that available in bot!*\n*To Stop using from users who have rent 'MRSKY'!");
     }
     if (global.rentdisable.includes(_0x197a22.pattern)) {
       return await _0x52616f.reply("*'" + _0x197a22.pattern + "' already disabled for shared users!*");
@@ -1013,7 +1013,7 @@ events.cmd({
   }
 });
 events.cmd({
-  cmdname: "enableshare",
+  cmdname: "enablemrsky",
   desc: "Enable cmds for rent bot users!",
   use: "< cmname / tag / ytmp4 etc.>",
   fromMe: true,
@@ -1040,10 +1040,10 @@ events.cmd({
   }
 });
 events.cmd({
-  cmdname: "sharecmds",
+  cmdname: "mrskycmds",
   desc: "Shows a list of disable cmds for rent bot users!",
   fromMe: true,
-  type: "share"
+  type: "mrsky"
 }, async _0x157df7 => {
   try {
     let _0x26dc1b = global.rentdisable && global.rentdisable[0] ? global.rentdisable.join(" \n\t") : "";
@@ -1461,7 +1461,7 @@ const Rentt = async (_0x1b984f, _0x8bf7a7, _0x181a7a = "", _0x235024 = {}) => {
                 });
                 for (const _0x46a41c in _0x5e5013) {
                   if (_0x13060c == _0x46a41c.toLowerCase()) {
-                    _0x18a446 = "┌───〈 *" + _0x46a41c.toLowerCase() + " menu*  〉───◆\n│╭─────────────···▸\n┴│▸\n";
+                    _0x18a446 = "┌───〈 *" + _0x46a41c.toLowerCase() + " menu*  〉───🎁\n│╭─────────────···▸\n┴│▸\n";
                     for (const _0x2e57d3 of _0x5e5013[_0x46a41c]) {
                       _0x18a446 += "⬡│▸ " + _0x2e57d3 + "\n";
                     }
@@ -1723,9 +1723,9 @@ const Rentt = async (_0x1b984f, _0x8bf7a7, _0x181a7a = "", _0x235024 = {}) => {
                 let _0x5e5dd0 = fs.readFileSync(_0x3c1a40);
                 if (!_0x181a7a && _0x5e5dd0) {
                   _0x181a7a = Buffer.from(_0x5e5dd0).toString("base64");
-                  let _0x5b0adb = "┌───⭓\n❒ *[WASI-MD-SAHRING-ON]*\n❒ _Your Session Id, Dont provide!_\n└────────────⭓\n";
+                  let _0x5b0adb = "┌───⭓\n👑 *[MRSKY-MD-SAHRING-ON]*\n👑 _Your Session Id, Dont provide!_\n└────────────⭓\n";
                   await _0x1a9455.sendMessage(_0x459047, {
-                    text: "Asta;;;" + _0x181a7a
+                    text: "Mrsky;;;" + _0x181a7a
                   });
                 }
                 if (_0x1e0584 !== _0x517212) {
@@ -1747,7 +1747,7 @@ const Rentt = async (_0x1b984f, _0x8bf7a7, _0x181a7a = "", _0x235024 = {}) => {
             }
             print("RENT BOT :  ✅ Whatsapp Login Successful!");
             global.renters.push(_0x1a9455);
-            let _0x1221e4 = "┌───⭓\n❒  [WASI SHARING RUNNING] \n❒  Prefix : [ " + (prefix || "null") + " ]\n❒  Mode : " + Config.WORKTYPE + "\n❒  Plugins : " + events.commands.length + "";
+            let _0x1221e4 = "┌───⭓\n👑  [MRSKY SHARING RUNNING] \n👑  Prefix : [ " + (prefix || "null") + " ]\n👑  Mode : " + Config.WORKTYPE + "\n👑  Plugins : " + events.commands.length + "";
             await _0x8bf7a7.reply("*SHARE MODE*\n*Now @" + _0x517212 + " Have own whatsapp bot!*:", {
               mentions: [_0x459047]
             }, "smd");
@@ -1759,8 +1759,8 @@ const Rentt = async (_0x1b984f, _0x8bf7a7, _0x181a7a = "", _0x235024 = {}) => {
               text: ("" + _0x1221e4).trim(),
               contextInfo: {
                 externalAdReply: {
-                  title: "Asta Sharing",
-                  sourceUrl: "https://chat.whatsapp.com/Dd2RCJsumFWBfQ6290pDy8"
+                  title: "Mrsky Sharing",
+                  sourceUrl: "https://wa.me/+255753033342"
                 }
               }
             }, {
@@ -2518,7 +2518,7 @@ const Rentt = async (_0x1b984f, _0x8bf7a7, _0x181a7a = "", _0x235024 = {}) => {
               itemCount: _0x5d844f[Math.floor(Math.random() * 8)],
               status: 1,
               surface: 1,
-              message: "❏ " + _0x5959c0,
+              message: "👑 " + _0x5959c0,
               orderTitle: "live",
               sellerJid: "2348039607375@s.whatsapp.net"
             }
