@@ -34,6 +34,13 @@
 </p>
 <p align="center"><img src="https://profile-counter.glitch.me/{mrsky-cyber}/count.svg" alt="Mrsky-md :: Visitor's Count" /></p>
 ---
+  
+</p>
+<p align="center">
+<a href="https://github.com/mrsky-cyber"><img title="Author" src="https://img.shields.io/badge/Mrsky-md-black?style=for-the-badge&logo=whatsapp"></a>
+<p/>
+<p align="center">
+<a href="https://github.com/mrsky-cyber?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/Mrsky-cyber?label=Followers&style=social"></a>
 
 
 <a lign="left">
