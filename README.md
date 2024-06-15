@@ -1,7 +1,7 @@
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <h1 align="center">Mr-Sky-𝗺𝗱 </h1> 
-<p align="center"> Introducing Mr-Sky-𝗺𝗱, It is designed to bring a whole new level of excitement to your boring WhatsApp use.hope it might be helpful to all loosen hope we feel delightful to save you release your feedback and share our chuddy buddy </p>
+<p align="center"> Introducing Mr-Sky-md, It is designed to bring a whole new level of excitement to your boring WhatsApp use.hope it might be helpful to all loosen hope we feel delightful to save you release your feedback and share our chuddy buddy </p>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
@@ -36,9 +36,14 @@
 ---
 
 
+<a lign="left">
+  <a href="https://github.com/mrsky-cyber/Mrsky-md/fork">
+    <img src="https://img.shields.io/github/forks/mrsky-ccyber/Mrsky-md?label=Fork&style=social">
+  <p align="left"> 
+  <a href="https://github.com/mrsky-cyber/Mrsky-md/stargazers">
+    <img src="https://img.shields.io/github/stars/mrsky-cyber/Mrsky-md?style=social">
 
-
-<p align="center"> 𝗩𝗲𝗻𝗼𝗰𝘆𝗯𝗲𝗿-𝗺𝗱 uses
+<p align="center"> Mrsky-md uses
   <a href="https://github.com/adiwajshing/Baileys">Multi-Device Baileys.</a>
 </p>
 <p align="center">
